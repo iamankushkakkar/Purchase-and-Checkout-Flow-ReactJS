@@ -27,7 +27,7 @@ const Product = (props) => {
     return (
         <div>
             <div key={props.productData.productId}>
-                <img className="text-center" style={{ height: '250px' }} src={"/images/" + props.productData.productName + ".webp"} alt="cart"></img>
+                <img className="text-center" style={{ height: '250px' }} src={"/images/" + props.productData.productName + ".png"} alt="cart"></img>
                 <h2 className="text-lg font-bold py-2 text-center">{props.productData.productName}</h2>
                 <div className="flex justify-between items-center mt-4">
                     <span>INR {props.productData.productPrice}</span>

@@ -86,7 +86,7 @@ const Cart = () => {
                         <h1 className="flex text-red text-xl ">Add Products From Cart</h1>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="/images/cheeseburger.webp" width={400} height={400} alt="empty cart" />
+                        <img src="/images/cheeseburger.png" width={400} height={400} alt="empty cart" />
                     </div>
                     <div className="flex flex-col items-center text-center  md:pt-16">
                         <Link to="/products">
@@ -187,7 +187,7 @@ const Cart = () => {
                                             <li className="mb-4">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
-                                                        <img className="h-16" src={"/images/" + product.productName + ".webp"} alt="cart"></img>
+                                                        <img className="h-16" src={"/images/" + product.productName + ".png"} alt="cart"></img>
                                                         <span className="italic ml-4 w-48">{product.productName}</span>
                                                     </div>
                                                     <div className="flex items-center">

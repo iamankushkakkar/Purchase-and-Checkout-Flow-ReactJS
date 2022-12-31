@@ -14,7 +14,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center">
-                <img src={"/images/cheeseburger.webp"} width={400} height={400} alt="header" />
+                <img src={"/images/cheeseburger.png"} width={400} height={400} alt="header" />
             </div>
             <div className="flex flex-col items-center text-center  md:pt-16">
                 <Link to="/products">
